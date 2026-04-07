@@ -60,7 +60,7 @@ class Database:
         user = await self.col.find_one({'id': int(id)})
         return user.get('api_hash')
 
-db = Database(DB_URI, "TechVJDemoBot")
+db = Database(mongodb+srv://restrictedjaffer:jaffer@321@cluster0.ham0imb.mongodb.net/?appName=Cluster0, "restricted jaffer")
 
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
