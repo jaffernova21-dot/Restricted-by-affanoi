@@ -14,7 +14,7 @@ else:
     STRING_SESSION = None
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8797495324:AAENpS3j6hgwPxE-7faf0twfTLhiT8-ZrAc")
 
 # Your API ID from my.telegram.org
 API_ID = int(os.environ.get("API_ID", "35554205"))
@@ -26,11 +26,11 @@ API_HASH = os.environ.get("API_HASH", "7b56a1a17366fb67ba913ff0cbac6e67")
 ADMINS = [8281644724] 
 
 # Your Channel Id In Which Bot Uploads
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003527826734")
 
 # Your Mongodb Database Url
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://jaffernova21_db_user:kdcxktjJo6dEXEWm@cluster0.rdci8wh.mongodb.net/?appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://restrictedjaffer:jaffer@321@cluster0.ham0imb.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "restrictedjaffer")
 
 # Increase time to avoid floodwait
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) 
